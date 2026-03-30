@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12e3458bbc124d228b74678f797a9f52, type: 3}
+  m_Name: AsteroidCollection
+  m_EditorClassIdentifier: Assembly-CSharp::Configs.AsteroidCollectionInstaller
+  _asteroidCollection:
+    _asteroidConfigs:
+    - _asteroidType: 0
+      _asteroidPrefab: {fileID: 6119580470333204237, guid: e1f1fb13a2efeba49a2a69b630a34227, type: 3}
+      _asteroidTypeConfig: {fileID: 11400000, guid: 41e84008db26df84dbc544b5e40fdebe, type: 2}
+    - _asteroidType: 1
+      _asteroidPrefab: {fileID: 5769425631028812218, guid: 85aab7e268b1f0f4e9b33af73fc3f18f, type: 3}
+      _asteroidTypeConfig: {fileID: 11400000, guid: 51de7eb6fd1065a45b16149bcf767862, type: 2}
+    - _asteroidType: 2
+      _asteroidPrefab: {fileID: 9187287082687791671, guid: f08b0a8f0afb0a64a8dbf65e019d44eb, type: 3}
+      _asteroidTypeConfig: {fileID: 11400000, guid: 26986b6329f3993479749065ed0d704a, type: 2}
+  _asteroidConfiguration:
+    asteroidSpawningInterval: 1
+    maxAllowedLargeAsteroids: 10
+    totalLargeAsteroids: 4
+    mediumSubParticles: 2
+    smallSubParticles: 2
